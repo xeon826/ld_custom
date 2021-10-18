@@ -425,7 +425,7 @@ if ( ( class_exists( 'LearnDash_Settings_Metabox' ) ) && ( ! class_exists( 'Lear
 								learndash_get_custom_label_lower( 'course' )
 							),
 						],
-						'date_range'      => [
+						'daterange'      => [
 							'label'       => esc_html__( 'Dates', 'learndash' ),
 							'description' => sprintf(
 								// translators: placeholder: course.
