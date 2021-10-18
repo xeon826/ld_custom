@@ -425,6 +425,14 @@ if ( ( class_exists( 'LearnDash_Settings_Metabox' ) ) && ( ! class_exists( 'Lear
 								learndash_get_custom_label_lower( 'course' )
 							),
 						),
+						'date_range'      => array(
+							'label'       => esc_html__( 'Dates', 'learndash' ),
+							'description' => sprintf(
+								// translators: placeholder: course.
+								esc_html_x( 'This %s is presented on a date-range basis, users will be able to purchase particular dates when they can use the course.', 'placeholder: course', 'learndash' ),
+								learndash_get_custom_label_lower( 'course' )
+							),
+						),
 						'free'      => array(
 							'label'       => esc_html__( 'Free', 'learndash' ),
 							'description' => sprintf(
